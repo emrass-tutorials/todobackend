@@ -1,4 +1,4 @@
-FROM enmrass/todobackend-base:latest
+FROM emrass/todobackend-base:latest
 MAINTAINER Enrico Mraß <enrico.mrass@gmail.com>
 
 # Copy application artifacts

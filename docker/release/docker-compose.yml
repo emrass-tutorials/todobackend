@@ -37,16 +37,6 @@ nginx:
   volumes_from:
     - webroot
 
-nginx2:
-  build: .
-  dockerfile: Dockerfile.nginx
-  links:
-    - app
-  ports:
-    - "8000:8000"
-  volumes_from:
-    - webroot
-
 webroot:
   build: ../../
   dockerfile: docker/release/Dockerfile

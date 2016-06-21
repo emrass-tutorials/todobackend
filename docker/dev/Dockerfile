@@ -1,4 +1,4 @@
-FROM emrass/todobackend-base:latest
+FROM emrasstutorials/todobackend-base:latest
 MAINTAINER Enrico Mraß <enrico.mrass@gmail.com>
 
 # Install dev/build dependencies
